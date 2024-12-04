@@ -83,6 +83,7 @@ public class Student {
     void updateDetails(){
         char choice=0;
         while(choice!='7'){
+            System.out.println();
             System.out.println("Select the detail you want to update : ");
             System.out.println("1.Name\n2.Department\n3.Address\n4.Semester\n5.Phone Number\n6.Email Id\n7.Exit");
             System.out.println("Enter your choice: ");

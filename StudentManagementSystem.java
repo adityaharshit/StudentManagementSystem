@@ -6,6 +6,7 @@ class StudentManagementSystem {
         char choice = '0';
         LinkedHashMap<Integer, Student> map = new LinkedHashMap<>();
         while (choice != '6') {
+            System.out.println();
             System.out.println("1. Add new student detail");
             System.out.println("2. Remove existing student detail");
             System.out.println("3. Update student detail");
@@ -71,7 +72,7 @@ class StudentManagementSystem {
                     String confirm = sc.next();
                     if (confirm.equalsIgnoreCase("yes")) {
                         System.out.println("Thank you.");
-                        choice = 6;
+                        choice = '6';
                     } else {
                         choice = 0; 
                     }
